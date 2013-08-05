@@ -1,0 +1,42 @@
+/*
+ *   @author          Black Cat Development
+ *   @copyright       2013, Black Cat Development
+ *   @link            http://blackcat-cms.org
+ *   @license         http://www.gnu.org/licenses/gpl.html
+ *   @category        CAT_Modules
+ *   @package         helloworld
+ *
+ */
+
+
+
+/*
+################################################################################
+#
+# The frontend.css contains the CSS used for the frontend, i.e., the page the
+# visitor sees. It is included automatically if the module is used on a page.
+#
+# ----------[                     BEST PRACTICE                      ]----------
+#
+# I. IDs / Classes
+#
+# CSS IDs and classes should be prefixed with 'mod_' followed by the unique
+# module name ($module_directory variable of info.php file) to avoid the CSS
+# included by a module to mix up the layout of another module or, even worse,
+# the whole page.
+#
+#
+# II. Complex CSS
+#
+# Use
+#   @import url(...);
+# to split complex CSS into smaller / more specialized files.
+#
+#
+# III. Dynamic CSS loading
+#
+# If you need to load CSS files dynamically - that is, depending on some
+# logic -, use the headers.inc.php to handle this.
+#
+################################################################################
+*/
